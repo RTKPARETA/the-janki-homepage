@@ -1,0 +1,553 @@
+.headline{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color:white;
+    background-color: rgba(125, 30, 30, 0.573);
+}
+.logo{
+    margin-left: 120px;
+    width: 300px;
+    height: 120px;
+}
+#header{
+    height: 120px;
+}
+.mainnav{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    gap: 12px;
+    margin-left: 5%;
+    font-size: 21px;
+    border: none;
+}
+.mainbtn{
+    display: flex;
+    margin-right: 7%;
+}
+.t{
+    border: none;
+    font-size: 32px;
+    color: grey;
+}
+.t:hover{
+    background-color: unset;
+    font-size: 33px;
+    color: blue;
+    transition: 1.5s;
+
+}
+.mainimg{
+border: none;
+margin: 0;
+width: 100%;
+}
+.essen{
+    color: grey;
+    font-size: 60px;
+    margin-top:70px;
+}
+.essential{
+    display: flex;
+    width: 100%;
+    margin-left: -15%;
+    margin-top: -10px;
+    flex-wrap: nowrap;
+}
+.essential a img{
+    width: 400px;
+    border-radius: 10px;
+}
+.vdo{
+    width: 100%;
+    margin-top: 10px;
+}
+.bs{
+    display: flex;
+    
+}
+.card{
+    display:flex;
+    border: none;
+}
+.card-text{
+    color: red;
+    border: none;
+}
+.op{
+    color: gray;
+}
+.gift{
+    display: flex;
+    gap: 10px;
+    margin-left: -15%;
+}
+.giftimg{
+    width: 850px;
+    height: 850px;
+    border-radius: 20px;
+}
+.gift2{
+    display: flex;
+    gap: 40px;
+    margin-left: -15%;
+}
+.giftimg2{
+    width: 543px;
+    height: 543px;
+    border-radius: 10px;
+}
+.contring{
+margin-top: 70px;
+}
+.mainimg2{
+    border: none;
+    margin: 0;
+    width: 100%;
+}
+.earnose{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.en{
+    width: 543px;
+    height: 543px;
+    border-radius: 10px;
+}
+.jt{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.tribe{
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
+.sep{
+    margin-top: 80px;
+}
+.secnav{
+    display: flex;
+    margin-left: -100px;
+  
+}
+
+.secnav ul li{
+    list-style: none;
+    color: grey;
+    padding-left: 200px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.secnav ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+.secnav ul h4{
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.mail{
+    border-radius: 100%/100%;
+    height: 80px;
+    width: 80px;
+    margin-top: 130px;
+    margin-left: 20px;
+    color: black;
+    font-size: 34px;
+    border:1px solid black;
+}
+.mail:hover{
+    border: 2px solid rgb(0, 187, 255);
+    color: rgb(0, 187, 255);
+}
+.sbtn{
+    border-radius: 100%/100%;
+    height: 60px;
+    width: 60px;
+    color: black;
+    font-size: 24px;
+    margin-top: 60px;
+    border: 0.5px solid gray;
+}
+.fb:hover{
+    padding-top:-10px;
+    color: rgb(23, 4, 98);
+    border: 1px solid rgb(23, 4, 98);;
+}
+.ins:hover{
+    padding-top:-10px;
+    color: rgb(150, 6, 35);
+    border: 1px solid rgb(150, 6, 35);;
+}
+
+.ins{
+    margin-left: 30px;
+}
+.connected{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.connected input{
+    color: grey;
+    padding-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+.connect{
+    width: 200px;
+}
+.footer{
+display: flex;
+padding-left: 130px;
+color: gray;
+font-size: 20px;
+padding-top: 30px;
+}
+.f2{
+    padding-left: 930px;
+}
+.f2 b{
+    color: black;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .headline{
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
+        color:white;
+        background-color: rgba(125, 30, 30, 0.573);
+    }
+    .logo{
+        margin-left: 20px;
+        width: 200px;
+        height: 80px;
+    }
+    #header{
+        height: 80px;
+    }
+    .mainnav{
+        font-size: 14px;
+        width: 100%;
+    gap: 0px;
+    margin-left: 0;
+    }
+    .mainbtn{
+        margin-right: 5%;
+    }
+    .t{
+        border: none;
+        font-size: 24px;
+        color: grey;
+    }
+    .t:hover{
+        background-color: unset;
+        font-size: 25px;
+        color: blue;
+        transition: 0.5s;
+    }
+    .essen{
+        color: grey;
+        font-size: 40px;
+        margin-top:50px;
+        
+    }
+    .essential{
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+        flex-wrap: nowrap;
+        padding-left: -10px;
+    }
+    .essential a img{
+        width: 270px;
+        border-radius: 10px;
+        height: 270px;
+    }
+    .gift{
+        display: flex;
+        gap: 10px;
+        margin-left: -8%;
+    }
+    .giftimg{
+        width: 650px;
+        height: 650px;
+        border-radius: 20px;
+    }
+    .gift2{
+        display: flex;
+        gap: 40px;
+        margin-left: 0;
+    }
+    .giftimg2{
+        width: 343px;
+        height: 343px;
+        border-radius: 10px;
+    }
+    .en{
+        width: 343px;
+        height: 343px;
+        border-radius: 10px;
+    }
+    .tribe{
+        width: 200px;
+        height: 220px;
+        border-radius: 10px;
+    }
+    .secnav ul li{
+        list-style: none;
+        color: grey;
+        padding-left: 130px;
+        padding-top: 7px;
+        font-size: 13px;
+    }
+    .secnav ul li:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .secnav ul h4{
+        padding-left: 130px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .mail{
+        border-radius: 100%/100%;
+        height: 60px;
+        width: 60px;
+        margin-top: 60px;
+        margin-left: 2px;
+        color: black;
+        font-size: 20px;
+        border:1px solid black;
+    }
+    .mail:hover{
+        border: 2px solid rgb(0, 187, 255);
+        color: rgb(0, 187, 255);
+    }
+    .sbtn{
+        border-radius: 100%/100%;
+        height: 40px;
+        width: 40px;
+        color: black;
+        font-size: 14px;
+        margin-top: 30px;
+        border: 0.5px solid gray;
+    }
+    .fb:hover{
+        padding-top:-10px;
+        color: rgb(23, 4, 98);
+        border: 1px solid rgb(23, 4, 98);;
+    }
+    .ins:hover{
+        padding-top:-10px;
+        color: rgb(150, 6, 35);
+        border: 1px solid rgb(150, 6, 35);;
+    }
+    
+    .ins{
+        margin-left: 10px;
+    }
+    .connected{
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+    .connected h4{
+font-size: 18px;
+    }
+    .connected input{
+        color: grey;
+        padding-top: 10px;
+        font-size: 13px;
+        border: none;
+    }
+    .connect{
+        width: 150px;
+    }
+    .footer{
+    display: flex;
+    padding-left: 80px;
+    color: gray;
+    font-size: 13px;
+    padding-top: 10px;
+    }
+    .f2{
+        padding-left: 730px;
+    }
+  }
+  @media only screen and (max-width: 1390px) {
+    .headline{
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
+        color:white;
+        background-color: rgba(125, 30, 30, 0.573);
+    }
+    .logo{
+        margin-left: 20px;
+        width: 200px;
+        height: 80px;
+    }
+    #header{
+        height: 80px;
+    }
+    .mainnav{
+        font-size: 14px;
+        width: 100%;
+    gap: 0px;
+    margin-left: 0;
+    }
+    .mainbtn{
+        margin-right: 5%;
+    }
+    .t{
+        border: none;
+        font-size: 24px;
+        color: grey;
+    }
+    .t:hover{
+        background-color: unset;
+        font-size: 25px;
+        color: blue;
+        transition: 0.5s;
+    }
+    .essen{
+        color: grey;
+        font-size: 40px;
+        margin-top:50px;
+        
+    }
+    .essential{
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+        flex-wrap: nowrap;
+        padding-left: -10px;
+    }
+    .essential a img{
+        width: 270px;
+        border-radius: 10px;
+        height: 270px;
+    }
+    .gift{
+        display: flex;
+        gap: 10px;
+        margin-left: -8%;
+    }
+    .giftimg{
+        width: 650px;
+        height: 650px;
+        border-radius: 20px;
+    }
+    .gift2{
+        display: flex;
+        gap: 40px;
+        margin-left: 0;
+    }
+    .giftimg2{
+        width: 343px;
+        height: 343px;
+        border-radius: 10px;
+    }
+    .en{
+        width: 343px;
+        height: 343px;
+        border-radius: 10px;
+    }
+    .tribe{
+        width: 200px;
+        height: 220px;
+        border-radius: 10px;
+    }
+    .secnav ul li{
+        list-style: none;
+        color: grey;
+        padding-left: 130px;
+        padding-top: 7px;
+        font-size: 13px;
+    }
+    .secnav ul li:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .secnav ul h4{
+        padding-left: 130px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .mail{
+        border-radius: 100%/100%;
+        height: 60px;
+        width: 60px;
+        margin-top: 60px;
+        margin-left: 2px;
+        color: black;
+        font-size: 20px;
+        border:1px solid black;
+    }
+    .mail:hover{
+        border: 2px solid rgb(0, 187, 255);
+        color: rgb(0, 187, 255);
+    }
+    .sbtn{
+        border-radius: 100%/100%;
+        height: 40px;
+        width: 40px;
+        color: black;
+        font-size: 14px;
+        margin-top: 30px;
+        border: 0.5px solid gray;
+    }
+    .fb:hover{
+        padding-top:-10px;
+        color: rgb(23, 4, 98);
+        border: 1px solid rgb(23, 4, 98);;
+    }
+    .ins:hover{
+        padding-top:-10px;
+        color: rgb(150, 6, 35);
+        border: 1px solid rgb(150, 6, 35);;
+    }
+    
+    .ins{
+        margin-left: 10px;
+    }
+    .connected{
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+    .connected h4{
+font-size: 18px;
+    }
+    .connected input{
+        color: grey;
+        padding-top: 10px;
+        font-size: 13px;
+        border: none;
+    }
+    .connect{
+        width: 150px;
+    }
+    .footer{
+    display: flex;
+    padding-left: 80px;
+    color: gray;
+    font-size: 13px;
+    padding-top: 10px;
+    }
+    .f2{
+        padding-left: 730px;
+    }
+  }
